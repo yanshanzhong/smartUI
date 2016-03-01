@@ -21,11 +21,16 @@ $.extend({
        }
   }
 });
-$.includePath = '/css/';
-$.include(["index.css","jquery-ui.css","rpms.css","rpms.grid.css","ui.jqgrid.css"
-          ,"uploadify.css","zTreeStyle.css","kandytabs.css","smart-ui.css"]);
-$.includePath = '/js_src/';
-$.include(["jquery/jquery.jqGrid.js","jquery/grid.treegrid.js"
-          ,"rpms/rpms.tree.js"
-          ,"smart.ui.base.js","smart.ui.comn.js","smart.ui.dept.js","smart.ui.form.js"
-          ,"smart.ui.prototype.js","smart.ui.tabs.js","smart.ui.user.js"]);
+
+
+$.includePath = '/smartUI/smartUI/jquery/css1.10.3/';
+$.include(["jquery-ui.css"]);
+
+$.includePath = '/smartUI/smartUI/jqGrid/';
+$.include(["ui.jqgrid-4.5.2.css"]);
+$.include(["jquery.jqGrid-4.5.2.js"]);
+
+$.includePath = '/smartUI/smartUI/smart/';
+$.include([]);
+$.include([]);
+
