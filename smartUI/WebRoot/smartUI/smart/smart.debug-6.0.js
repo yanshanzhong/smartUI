@@ -1,4 +1,4 @@
-/* smart.debug.js
+/* smart.debug-6.0.js
  * date: 2016-02-22
  */
 (function ($) {
